@@ -4,6 +4,7 @@ export function Home() {
   return (
     <>
       <HeroSection />
+      
     </>
   )
 }   
