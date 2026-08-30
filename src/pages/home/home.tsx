@@ -1,8 +1,7 @@
-import { HeroSection } from "./components/HeroSection"
-import { SearchFilters } from "./components/SearchFilters"
-import { PropertyList } from "./components/PropertyList"
-import { properties } from "@/data/properties"
-
+import { HeroSection } from "./components/HeroSection";
+import { SearchFilters } from "./components/SearchFilters";
+import { PropertyList } from "./components/PropertyList";
+import { properties } from "@/data/properties";
 
 export function Home() {
   return (
@@ -11,5 +10,5 @@ export function Home() {
       <SearchFilters />
       <PropertyList properties={properties} />
     </>
-  )
+  );
 }
