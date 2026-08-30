@@ -7,7 +7,7 @@ interface PropertyListProps {
 
 export function PropertyList({ properties }: PropertyListProps) {
   return (
-    <section className="mt-6 px-8 pb-10">
+    <section className="w-full mx-auto px-4 py-8">
       <div className="w-full grid grid-cols-3 gap-8">
         {properties.map((property) => (
           <PropertyCard key={property.id} {...property} />
