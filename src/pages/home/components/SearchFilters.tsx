@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 
 export function SearchFilters() {
   return (
-    <div className="relative z-20 -mt-7 px-4">
+    <div className="relative z-20 -mt-7 px-4 w-full">
       <div className="rounded-2xl bg-white p-8 shadow-xl">
         {/* Search row */}
         <div className="mb-3 flex gap-2">
