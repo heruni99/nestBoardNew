@@ -2,7 +2,7 @@ import heroImage from '@/assets/hero.png'
 export function HeroSection() {
   return (
     <section
-      className="relative flex flex-col items-center justify-center text-center px-5 pt-10 pb-16"
+      className="relative flex flex-col items-center justify-center text-center px-5 pt-10 pb-16 w-full"
       style={{
         backgroundImage: `url(${heroImage})`,
         backgroundSize: 'cover',
