@@ -19,7 +19,7 @@ export function PropertyCard(props: Property) {
 
       {/* Gradient overlay (Middle layer: z-10) */}
       {/* FIXED: Changed bg-linear-to-t to bg-gradient-to-t */}
-      <div className="absolute inset-0 z-10 bg-gradient-to-t from-black/85 via-black/20 to-transparent" />
+      <div className="absolute inset-0 z-10 bg-linear-to-t from-black/85 via-black/20 to-transparent" />
 
       {/* Rating badge (Top layer: z-20) */}
       <Badge className="absolute top-2.5 right-2.5 z-20 h-auto gap-1 border-0 bg-white/90 py-0.5 text-gray-800 backdrop-blur-sm">
