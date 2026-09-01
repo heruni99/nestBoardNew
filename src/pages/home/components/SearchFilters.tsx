@@ -1,13 +1,16 @@
-import { Search, SlidersHorizontal } from "lucide-react"
-import { Input } from "@/components/ui/input"
-import { Button } from "@/components/ui/button"
+import { Search, SlidersHorizontal } from "lucide-react";
+import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
 
 type SearchFiltersProps = {
-  searchQuery: string
-  onSearchChange: (value: string) => void
-}
+  searchQuery: string;
+  onSearchChange: (value: string) => void;
+};
 
-export function SearchFilters({ searchQuery, onSearchChange }: SearchFiltersProps) {
+export function SearchFilters({
+  searchQuery,
+  onSearchChange,
+}: SearchFiltersProps) {
   return (
     <div className="relative z-20 -mt-7 px-4 w-full">
       <div className="rounded-2xl bg-white p-8 shadow-xl">
@@ -32,5 +35,5 @@ export function SearchFilters({ searchQuery, onSearchChange }: SearchFiltersProp
         </div>
       </div>
     </div>
-  )
+  );
 }
